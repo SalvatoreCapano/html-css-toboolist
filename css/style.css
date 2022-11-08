@@ -3,4 +3,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*General Styling*/
+body{
+    height: 100vh;
+    background-color: #f6f8f9;
+}
+
+/*Main Header Styling*/
+#mainHeader{
+    width: 100%;
+    height: 10vh;
+
+    background-color: #fff;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo{
+    height: 75%;
+    margin: 0 1em 0 2em;
+}
+
+h1{
+    display: inline-block;
+   
+    margin: 0;
+
+    font-size: 3rem; 
+    font-weight: 600;
 }
