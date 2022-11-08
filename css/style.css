@@ -37,3 +37,11 @@ h1{
     font-size: 3rem; 
     font-weight: 600;
 }
+
+#container{
+    width: 70%;
+    height: 80vh;
+    background-color: #fff;
+    margin: 5vh auto;
+    border-radius: 10px;
+}
