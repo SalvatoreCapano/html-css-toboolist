@@ -81,3 +81,116 @@ button{
     background: none;
     border: 2px solid currentColor;
 }
+
+/*List section styling*/
+#container main{
+    width: 100%;
+    height: 90.5%;
+    padding: 2em 3em;
+
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+.category{
+    margin-bottom: 0.5em;
+}
+
+.category h3{
+    font-weight: 600;
+    font-size: 1.3em;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.category h3::before{
+    content: '\25bc';
+    margin-right: 0.25em;
+}
+
+.taskList{
+    padding: 0.3em 0.2em;
+}
+
+.taskList li{
+    margin: 1em 0;
+}
+
+/*Styling of list'items status icon*/
+.taskList li::before{
+    display: inline-block;
+
+    width: 20px;
+    height:20px;
+
+    border-radius: 50%;
+
+    font-size: 0.8em;
+    line-height: 20px;
+    text-align: center;
+
+    margin: 0 0.5em;
+}
+
+.done::before{
+    content: '\2713';
+    color: #79c9b6;
+    border: 2px solid currentColor;
+}
+
+.notDone::before{
+    content: ' 	\2A2F';
+    color: #eb5952;
+    border: 2px solid currentColor;
+}
+
+/*Styling of list item's tags*/
+.taskList li::after{
+    content: '';
+    display: inline-block;
+    margin-left: 0.5em;
+
+    font-size: 0.8em;
+    color: white;
+    line-height: 25px;
+
+    height: 25px;
+
+    border-radius: 10px;
+    padding: 0.125em 0.6em;
+}
+
+.taskList .editorial::after{
+    content: 'Editorial';
+    background-color: #45abea;
+}
+
+.taskList .q1Goals::after{
+    content: 'Q1 Goals';
+    background-color: #9c72e4;
+}
+
+.taskList .recruiting::after{
+    content: 'Recruiting';
+    background-color: #64c0a9;
+}
+
+.taskList .mobile::after{
+    content: 'Mobile';
+    background-color: #f29e33;
+}
+
+.taskList .website::after{
+    content: 'Website';
+    background-color: #d863a1;
+}
+
+.taskList .sales::after{
+    content: 'Sales';
+    background-color: #b0c926;
+}
